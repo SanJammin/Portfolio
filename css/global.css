@@ -1,10 +1,10 @@
 /* GLOBAL */
 
 :root {
-    --bg: #fdfdfd;
-    --text: #333;
-    --accent: #333;
+    --bg: #fefcf9;
     --card-bg: white;
+    --text: #2c2c2c;
+    --accent: #3964f5;
 }
 
 * {
@@ -26,8 +26,8 @@ body {
 }
 
 body.dark-mode {
-    --bg: #121212;
-    --text: #f5f5f5;
-    --accent: #f5f5f5;
-    --card-bg: #1e1e1e;
+    --bg: #121417;
+    --card-bg: #1f2226;
+    --text: #e2e8f0;
+    --accent: #82aaff;
 }
