@@ -16,27 +16,55 @@ body {
     overflow-x: hidden;
 }
 
+/* ===== NAVBAR ===== */
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 2rem;
     background: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
-    overflow: hidden;
     width: 100%;
     box-sizing: border-box;
-    transform: translateZ(0); /* triggers GPU rendering */
+    transform: translateZ(0);
     backface-visibility: hidden;
     will-change: transform;
 }
 
-.navbar ul {
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1100;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    background: #333;
+    border-radius: 2px;
+}
+
+/* Show nav links horizontally by default (desktop) */
+.nav-links {
+    display: flex;
+}
+
+.nav-links ul {
     list-style: none;
     display: flex;
     gap: 1.5rem;
+    padding-left: 0;
+    margin: 0;
 }
 
 .navbar a {
@@ -228,13 +256,46 @@ body {
 }
 
 @media (max-width: 600px) {
+    body {
+        padding-top: 85.875px;
+    }
+
     .navbar {
         position: fixed;
         top: 0;
     }
-    
-    body {
-    padding-top: 85.875px;
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none; /* Hides menu until toggle */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        z-index: 999;
+        transition: all 0.3s ease;
+    }
+
+    .nav-links.show {
+        display: block;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: center;
     }
 
     .about-desktop {
