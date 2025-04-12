@@ -30,6 +30,7 @@ body {
     box-sizing: border-box;
     transform: translateZ(0); /* triggers GPU rendering */
     backface-visibility: hidden;
+    will-change: transform;
 }
 
 .navbar ul {
@@ -227,6 +228,15 @@ body {
 }
 
 @media (max-width: 600px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+    }
+    
+    body {
+    padding-top: 85.875px;
+    }
+
     .about-desktop {
         display: none;
     }
