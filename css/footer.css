@@ -3,7 +3,7 @@
 .footer {
     text-align: center;
     padding: 2rem;
-    background: #f4f4f4;
+    background: var(--bg);
     font-size: 0.9rem;
 }
 

@@ -1,7 +1,7 @@
 /* CONTACT */
 
 .contact {
-    background: #f0f4f8;
+    background: var(--card-bg);
     border-radius: 0.5rem;
     padding: 3rem 2rem;
     text-align: center;
@@ -18,11 +18,11 @@
 .contact-form input,
 .contact-form textarea {
     padding: 0.75rem 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--text);
     border-radius: 0.5rem;
     font-size: 1rem;
     font-family: inherit;
-    background: white;
+    background: var(--bg);
     transition: border 0.2s ease;
 }
 
@@ -33,8 +33,8 @@
 }
 
 .contact-form button {
-    background: #333;
-    color: white;
+    background: var(--accent);
+    color: var(--bg);
     padding: 0.75rem 1.25rem;
     border: none;
     border-radius: 0.5rem;
@@ -45,7 +45,7 @@
 }
 
 .contact-form button:hover {
-    background: #555;
+    background: var(--text);
 }
 
 .alt-contact {
@@ -54,7 +54,7 @@
 }
 
 .alt-contact a {
-    color: #333;
+    color: var(--text);
     font-weight: 500;
     text-decoration: underline;
 }

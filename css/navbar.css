@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: #fff;
+    background: var(--card-bg);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
@@ -40,7 +40,7 @@
 
 .navbar a {
     text-decoration: none;
-    color: #333;
+    color: var(--text);
     font-weight: 500;
 }
 
@@ -60,7 +60,7 @@
 .hamburger span {
     display: block;
     height: 3px;
-    background: #333;
+    background: var(--text);
     border-radius: 2px;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
