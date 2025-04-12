@@ -1,5 +1,12 @@
 /* GLOBAL */
 
+:root {
+    --bg: #fdfdfd;
+    --text: #333;
+    --accent: #333;
+    --card-bg: white;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -13,7 +20,44 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: #fdfdfd;
-    color: #333;
+    background: var(--bg);
+    color: var(--text);
     overflow-x: hidden;
+}
+
+body.dark-mode {
+    --bg: #121212;
+    --text: #f5f5f5;
+    --accent: #f5f5f5;
+    --card-bg: #1e1e1e;
+}
+
+.navbar,
+.contact,
+.project-card,
+.footer {
+    background: var(--card-bg);
+}
+.navbar a,
+.alt-contact a,
+.footer {
+    color: var(--text);
+}
+
+.cta,
+.project-link {
+    background: var(--accent);
+    color: var(--bg)
+}
+
+.cta:hover {
+    background: #555;
+}
+
+.project-link:hover {
+    background: #111;
+}
+
+.line {
+    border-color: var(--text);
 }

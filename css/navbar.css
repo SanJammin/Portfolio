@@ -17,6 +17,14 @@
     will-change: transform;
 }
 
+.theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
 .nav-links {
     display: flex;
     margin-left: auto;

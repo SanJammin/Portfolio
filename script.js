@@ -1,6 +1,7 @@
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const overlay = document.getElementById("overlay");
+const themeToggle = document.querySelector(".theme-toggle");
 
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
@@ -12,4 +13,8 @@ overlay.addEventListener("click", () => {
     hamburger.classList.remove("active");
     navLinks.classList.remove("show");
     overlay.classList.remove("show");
+});
+
+themeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
 });
