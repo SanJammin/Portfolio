@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Freddie's personal frontend developer portfolio">
+    <meta name="author" content="Freddie Farr">
+    <meta property="og:title" content="Freddie | Front End Developer">
+    <meta property="og:description" content="A showcase of frontend projects and progress.">
     <title>Freddie | Front End Developer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -50,8 +54,16 @@
         <div class="project-grid">
             <div class="project-card">
                 <h4>Learning Journal</h4>
-                <p>Here I built a multi-page website, detailing my learning experience with code so far.</p>
-            </div>
+                <p>Multi-page responsive site built to track my progress.</p>
+                <p class="tags">HTML • CSS • JS</p>
+                <a 
+                href="https://learning-journal-jammin.netlify.app/" 
+                class="project-link" 
+                target="_blank" 
+                rel="noopener">
+                    View Project
+                </a>
+              </div>
             <div class="project-card">
                 <!-- Finish polishing website -->
                 <h4>Melting Hair</h4>
@@ -65,11 +77,27 @@
         </div>
     </section>
 
-    <div class="line"></div>
-
-    <section id="contact" class="section">
+    <section id="contact" class="section contact">
         <h3>Contact</h3>
-        <p>Let's connect! You can reach me at: <a href="mailto:freddie.farr893@gmail.com">freddie.farr893@gmail.com</a></p>
+        <p>If you'd like to work together, collaborate, or just say hi — drop me a message!</p>
+    
+        <form class="contact-form">
+            <label for="name" class="sr-only">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+            <label for="email" class="sr-only">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+            <label for="message" class="sr-only">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    
+        <p class="alt-contact">
+            Or just email me directly: 
+            <a href="mailto:freddie.farr893@gmail.com">freddie.farr893@gmail.com</a>
+        </p>
     </section>
 
     <footer class="footer">
