@@ -1,0 +1,27 @@
+[
+    {
+    "title": "Learning Journal",
+    "description": "Multi-page responsive site built to track my progress.",
+    "image": "images/learning-journal.png",
+    "alt": "Screenshot of Learning Journal project",
+    "link": "https://learning-journal-jammin.netlify.app/",
+    "tags": ["HTML", "CSS", "JS"]
+    },
+    {
+    "title": "Melting Hair",
+    "description": "My first freelance website, made to client specification.",
+    "image": null,
+    "alt": "",
+    "link": null,
+    "tags": []
+    },
+    {
+    "title": "Chrome Extension",
+    "description": "!!Enter Project Description!!",
+    "image": null,
+    "alt": "",
+    "link": null,
+    "tags": []
+    }
+]
+  
