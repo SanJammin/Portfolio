@@ -35,6 +35,21 @@ body {
     background: #f0f4f8;
 }
 
+.cta {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background: #333;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.cta:hover {
+    background: #555;
+}
+
 .section {
     padding: 3rem 2rem;
 }
