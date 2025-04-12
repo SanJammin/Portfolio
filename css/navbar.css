@@ -17,6 +17,11 @@
     will-change: transform;
 }
 
+.nav-links {
+    display: flex;
+    margin-left: auto;
+}
+
 .nav-links ul {
     list-style: none;
     display: flex;
