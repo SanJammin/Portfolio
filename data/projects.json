@@ -10,10 +10,10 @@
     {
     "title": "Melting Hair",
     "description": "My first freelance website, made to client specification.",
-    "image": null,
-    "alt": "",
-    "link": null,
-    "tags": []
+    "image": "images/client-site.png",
+    "alt": "Screenshot of Melting Hair, the client website.",
+    "link": "https://meltinghair.netlify.app/",
+    "tags": ["HTML", "CSS", "JS", "Freelance"]
     },
     {
     "title": "Chrome Extension",
