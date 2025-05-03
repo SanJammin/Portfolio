@@ -22,6 +22,14 @@
     "alt": "",
     "link": null,
     "tags": []
-    }
+    },
+    {
+        "title": "Movie Watchlist",
+        "description": "Curated movie tracker with localStorage and dynamic OMDb API search.",
+        "image": "images/movie-watchlist.png",
+        "alt": "Screenshot of Movie Watchlist App",
+        "link": "https://movie-watchlist-jammin.netlify.app/",
+        "tags": ["HTML", "CSS", "JS", "API"]
+        }
 ]
   
