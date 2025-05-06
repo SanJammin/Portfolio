@@ -16,12 +16,12 @@
     "tags": ["HTML", "CSS", "JS", "Freelance"]
     },
     {
-    "title": "Chrome Extension",
-    "description": "!!Enter Project Description!!",
-    "image": null,
-    "alt": "",
+    "title": "Personal Dashboard",
+    "description": "Live dashboard showing weather, time and Korean word translation",
+    "image": "images/chrome-extension.png",
+    "alt": "Screenshot of Personal Dashboard",
     "link": null,
-    "tags": []
+    "tags": ["HTML", "CSS", "JS", "API", "CHROME EXTENSION"]
     },
     {
         "title": "Movie Watchlist",
