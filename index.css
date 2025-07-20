@@ -1,5 +1,5 @@
 * {
-    --n-blue: 0, 98, 185;
+    --main-color: 0, 98, 185;
     --blue: rgba(0, 98, 185, 0.8);
     --red: red;
     --purple: rgba(143, 162, 255, 0.8);
@@ -7,7 +7,6 @@
     --light-green: rgba(101, 146, 74, 0.8);
     --brown: rgba(129, 104, 8, 0.8);
     --light-brown: rgba(186, 155, 65, 0.8);
-    --main-color: var(var(--n-blue));
 }
 
 *,
